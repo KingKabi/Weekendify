@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F0B99962891C604006A2931 /* UIColours.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0B99952891C604006A2931 /* UIColours.swift */; };
 		3FA726902891A82D0051DA5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA7268F2891A82D0051DA5A /* AppDelegate.swift */; };
 		3FA726922891A82D0051DA5A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA726912891A82D0051DA5A /* SceneDelegate.swift */; };
 		3FA726942891A82D0051DA5A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA726932891A82D0051DA5A /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F0B99952891C604006A2931 /* UIColours.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColours.swift; sourceTree = "<group>"; };
 		3FA7268C2891A82D0051DA5A /* Weekendify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Weekendify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FA7268F2891A82D0051DA5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FA726912891A82D0051DA5A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				3FA7268F2891A82D0051DA5A /* AppDelegate.swift */,
 				3FA726912891A82D0051DA5A /* SceneDelegate.swift */,
 				3FA726932891A82D0051DA5A /* ViewController.swift */,
+				3F0B99952891C604006A2931 /* UIColours.swift */,
 				3FA726952891A82D0051DA5A /* Main.storyboard */,
 				3FA726982891A82F0051DA5A /* Assets.xcassets */,
 				3FA7269A2891A82F0051DA5A /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 				3FA726942891A82D0051DA5A /* ViewController.swift in Sources */,
 				3FA726902891A82D0051DA5A /* AppDelegate.swift in Sources */,
 				3FA726922891A82D0051DA5A /* SceneDelegate.swift in Sources */,
+				3F0B99962891C604006A2931 /* UIColours.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
