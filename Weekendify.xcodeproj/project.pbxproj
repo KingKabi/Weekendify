@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F058AAF2898519400B1CE4C /* FamiljenGrotesk-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3F058AAE2898519300B1CE4C /* FamiljenGrotesk-Medium.ttf */; };
 		3F0B99962891C604006A2931 /* UIColours.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0B99952891C604006A2931 /* UIColours.swift */; };
 		3FA726902891A82D0051DA5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA7268F2891A82D0051DA5A /* AppDelegate.swift */; };
 		3FA726922891A82D0051DA5A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA726912891A82D0051DA5A /* SceneDelegate.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F058AAE2898519300B1CE4C /* FamiljenGrotesk-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "FamiljenGrotesk-Medium.ttf"; path = "../../../Desktop/FamiljenGrotesk-Medium.ttf"; sourceTree = "<group>"; };
 		3F0B99952891C604006A2931 /* UIColours.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColours.swift; sourceTree = "<group>"; };
 		3FA7268C2891A82D0051DA5A /* Weekendify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Weekendify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FA7268F2891A82D0051DA5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				3FA726982891A82F0051DA5A /* Assets.xcassets */,
 				3FA7269A2891A82F0051DA5A /* LaunchScreen.storyboard */,
 				3FA7269D2891A82F0051DA5A /* Info.plist */,
+				3F058AAE2898519300B1CE4C /* FamiljenGrotesk-Medium.ttf */,
 			);
 			path = Weekendify;
 			sourceTree = "<group>";
@@ -129,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FA7269C2891A82F0051DA5A /* LaunchScreen.storyboard in Resources */,
+				3F058AAF2898519400B1CE4C /* FamiljenGrotesk-Medium.ttf in Resources */,
 				3FA726992891A82F0051DA5A /* Assets.xcassets in Resources */,
 				3FA726972891A82D0051DA5A /* Main.storyboard in Resources */,
 			);

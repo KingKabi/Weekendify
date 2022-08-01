@@ -7,6 +7,11 @@
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="FamiljenGrotesk-Medium.ttf">
+            <string>FamiljenGrotesk-Medium</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="dE9-yt-cxc">
@@ -21,7 +26,7 @@
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="hkb-J0-G9d" secondAttribute="height" multiplier="138:7" id="y5X-mr-HDl"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="FamiljenGrotesk-Medium" family="Familjen Grotesk" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -54,7 +59,7 @@
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="I7p-sf-S5N" secondAttribute="height" multiplier="138:7" id="hru-Hs-90c"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="FamiljenGrotesk-Medium" family="Familjen Grotesk" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -86,7 +91,7 @@
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="LeZ-ho-kim" secondAttribute="height" multiplier="138:7" id="eG1-Yj-KjP"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="FamiljenGrotesk-Medium" family="Familjen Grotesk" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
