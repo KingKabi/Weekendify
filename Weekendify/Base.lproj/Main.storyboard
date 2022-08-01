@@ -16,9 +16,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="🚗 PLACES TO GO 🚗" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hkb-J0-G9d">
-                                <rect key="frame" x="0.0" y="59" width="414" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="🚗 PLACES TO GO 🚗" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hkb-J0-G9d">
+                                <rect key="frame" x="0.0" y="70" width="414" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="hkb-J0-G9d" secondAttribute="height" multiplier="138:7" id="y5X-mr-HDl"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -26,6 +28,12 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="dNR-Vr-bRd"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="hkb-J0-G9d" firstAttribute="top" secondItem="dNR-Vr-bRd" secondAttribute="top" constant="26" id="BU3-Cu-Jkz"/>
+                            <constraint firstItem="hkb-J0-G9d" firstAttribute="centerX" secondItem="ZrI-eJ-vIr" secondAttribute="centerX" id="KiN-nC-c9k"/>
+                            <constraint firstItem="hkb-J0-G9d" firstAttribute="leading" secondItem="dNR-Vr-bRd" secondAttribute="leading" id="clT-k0-nJL"/>
+                            <constraint firstItem="dNR-Vr-bRd" firstAttribute="bottom" secondItem="hkb-J0-G9d" secondAttribute="bottom" constant="722" id="kLv-bi-8Vu"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="" image="PlacesIcon" id="6Li-iO-Wg2"/>
                 </viewController>
@@ -41,16 +49,23 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="😍 FAVOURITES 😍" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GHe-d7-6l4">
-                                <rect key="frame" x="0.0" y="60" width="414" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="😍 FAVOURITES 😍" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I7p-sf-S5N">
+                                <rect key="frame" x="0.0" y="70" width="414" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="I7p-sf-S5N" secondAttribute="height" multiplier="138:7" id="hru-Hs-90c"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="SGG-uP-0D2"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="I7p-sf-S5N" firstAttribute="top" secondItem="SGG-uP-0D2" secondAttribute="top" constant="26" id="ofO-7n-4EU"/>
+                            <constraint firstItem="I7p-sf-S5N" firstAttribute="centerX" secondItem="mW5-Pe-Qt5" secondAttribute="centerX" id="uM8-9e-L9S"/>
+                            <constraint firstItem="I7p-sf-S5N" firstAttribute="leading" secondItem="SGG-uP-0D2" secondAttribute="leading" id="zDW-J9-ljJ"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="" image="HeartIcon" id="0Mt-Ig-3er"/>
                 </viewController>
@@ -66,9 +81,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="🎉 UPCOMING EVENTS 🎉" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LeZ-ho-kim">
-                                <rect key="frame" x="0.0" y="59" width="414" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="🎉 UPCOMING EVENTS 🎉" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LeZ-ho-kim">
+                                <rect key="frame" x="0.0" y="70" width="414" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="LeZ-ho-kim" secondAttribute="height" multiplier="138:7" id="eG1-Yj-KjP"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -76,6 +93,12 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Nah-33-Rem"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Nah-33-Rem" firstAttribute="bottom" secondItem="LeZ-ho-kim" secondAttribute="bottom" constant="722" id="Iwv-dN-ggD"/>
+                            <constraint firstItem="LeZ-ho-kim" firstAttribute="top" secondItem="Nah-33-Rem" secondAttribute="top" constant="26" id="PNh-W7-hXv"/>
+                            <constraint firstItem="LeZ-ho-kim" firstAttribute="centerX" secondItem="itL-gQ-zBc" secondAttribute="centerX" id="THq-Ba-23p"/>
+                            <constraint firstItem="LeZ-ho-kim" firstAttribute="leading" secondItem="Nah-33-Rem" secondAttribute="leading" id="pqQ-z0-9Ru"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="" image="HouseIcon" id="ity-Ko-QK8"/>
                 </viewController>

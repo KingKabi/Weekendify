@@ -11,7 +11,6 @@ extension UIColor {
     
     static let backgroundWhite = UIColor(hex: 0xffffff)
     static let iconBlack = UIColor(hex: 0x2b2b2b)
-    static let iconGray = UIColor(hex: 0x797979)
     
     convenience init(red: Int, green: Int, blue: Int, a:CGFloat = 1.0) {
         self.init(
