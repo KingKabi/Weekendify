@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "547_flyer_82528955_2554187754840158_8376602466896052224_n.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "547_flyer_82528955_2554187754840158_8376602466896052224_n-1.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "547_flyer_82528955_2554187754840158_8376602466896052224_n-2.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

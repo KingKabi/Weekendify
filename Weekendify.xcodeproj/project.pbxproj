@@ -15,6 +15,7 @@
 		3FA726972891A82D0051DA5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FA726952891A82D0051DA5A /* Main.storyboard */; };
 		3FA726992891A82F0051DA5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FA726982891A82F0051DA5A /* Assets.xcassets */; };
 		3FA7269C2891A82F0051DA5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FA7269A2891A82F0051DA5A /* LaunchScreen.storyboard */; };
+		3FD898432899B4CB00BBA07A /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3FD898422899B4CB00BBA07A /* OpenSans-Light.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		3FA726982891A82F0051DA5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3FA7269B2891A82F0051DA5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3FA7269D2891A82F0051DA5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FD898422899B4CB00BBA07A /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-Light.ttf"; path = "../../Familjen_Grotesk,Open_Sans/Open_Sans/static/OpenSans/OpenSans-Light.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				3FA7269A2891A82F0051DA5A /* LaunchScreen.storyboard */,
 				3FA7269D2891A82F0051DA5A /* Info.plist */,
 				3F058AAE2898519300B1CE4C /* FamiljenGrotesk-Medium.ttf */,
+				3FD898422899B4CB00BBA07A /* OpenSans-Light.ttf */,
 			);
 			path = Weekendify;
 			sourceTree = "<group>";
@@ -134,6 +137,7 @@
 				3FA7269C2891A82F0051DA5A /* LaunchScreen.storyboard in Resources */,
 				3F058AAF2898519400B1CE4C /* FamiljenGrotesk-Medium.ttf in Resources */,
 				3FA726992891A82F0051DA5A /* Assets.xcassets in Resources */,
+				3FD898432899B4CB00BBA07A /* OpenSans-Light.ttf in Resources */,
 				3FA726972891A82D0051DA5A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
